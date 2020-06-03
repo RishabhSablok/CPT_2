@@ -13,5 +13,5 @@ def quadratic_formula(a, b, c):
     except:
         return "No roots"
 
-a, b, c = int(input("Input the a value: ")), int(input("Input the b value: ")), int(input("Input the c value: "))
+a, b, c = int(input("Input the \"a\" value: ")), int(input("Input the \"b\" value: ")), int(input("Input the \"c\" value: "))
 print(quadratic_formula(a, b, c))
